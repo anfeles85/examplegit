@@ -5,8 +5,12 @@
 """
 import random
 
+print("Número aleatorio entre 1 y 10")
+
 random_number = random.randint(1, 10)
 print(random_number)
+
+print("---------------------------------")
 
 for i in range(0, 10):
     random_number = random.randrange(20, 100, 5)
